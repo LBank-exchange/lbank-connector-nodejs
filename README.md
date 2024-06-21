@@ -24,7 +24,7 @@ Note that this `config.js` is only used for examples, you should have your own c
 #### Market Endpoint: Exchange Information
 
 ```js
-const { Spot } = require('@lbank/lbank-connector')
+const { Spot } = require('@lbankcom/lbank-connector')
 
 const BASE_URL = ''
 
@@ -37,7 +37,7 @@ const result = client.createMarket().bookTicker({})
 #### Trade Endpoint: Testing a new order
 
 ```js
-const { Spot } = require('@lbank/lbank-connector')
+const { Spot } = require('@lbankcom/lbank-connector')
 const { Console } = require('console')
 
 const logger = new Console({
@@ -85,7 +85,7 @@ Please find `examples` folder to check for more endpoints.
 #### Custom Logger Integration
 
 ```javascript
-const { Spot } = require('@lbank/lbank-connector')
+const { Spot } = require('@lbankcom/lbank-connector')
 const fs = require('fs')
 const { Console } = require('console')
 

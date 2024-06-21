@@ -1,5 +1,5 @@
 {
-  "name": "@lbank/lbank-connector",
+  "name": "@lbankcom/lbank-connector",
   "version": "1.0.0",
   "description": "This is a lightweight library that works as a connector to the LBank public API.",
   "main": "src/index.js",
@@ -65,5 +65,9 @@
     "ignore": [
       "/docs/**/*.js"
     ]
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
